@@ -1,0 +1,21 @@
+/* MARKETS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.markets__images{
+    width: 1920;
+    height: 156.9499969482422;
+    padding-top: 40px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    gap: 136px;
+    opacity: 1;
+    border-top-width: 1px;
+}
