@@ -1,3 +1,4 @@
+
 /* fonts  */
 roboto condenced
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
@@ -5,11 +6,15 @@ roboto condenced
 roboto
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+=======
+/* mustafo */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 body{
     font-family: "Roboto Condensed", sans-serif;
@@ -32,4 +37,40 @@ body{
     line-height: 100%;
     word-spacing: 4px;
     text-transform: uppercase;
+=======
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.div{
+    display: flex;
+    justify-content: space-between;
+    gap: 500px;
+    align-items: center;
+}
+.nav__left ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.nav__left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+}
+.nav{
+    padding: 30px;
+}
+.nav__right button{
+    width: 170px;
+    height: 43px;
+    border-radius: 5px;
+    padding: 10px 25px;
+    gap: 10px;
+    color: #fff;
+    background-color: #f5333f;
+    border: none;
+    font-weight: 600;
 }
